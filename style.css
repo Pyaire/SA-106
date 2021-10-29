@@ -150,10 +150,10 @@ main{
 
 
 main h2{
-    
+    text-align: center;
 }
 
-#sec1, #sec2, #sec3{
+#sec1, #sec2{
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -179,8 +179,8 @@ section p{
 }
 
 main img{
-    height: 260px;
-    width: 470px;
+    height: 300px;
+    width: 510px;
     padding-left: 34%;
     margin-top: 20px;
 }
@@ -190,7 +190,37 @@ main img{
     margin-top: 50px;
 }
 
-#sec3>img{
+/* #afpa,#infradax>img{
+    width: 200px;
+    height: 200px;
+    margin: -50px 0 0 -150px;
+} */
+
+#sec3>#infradax,#afpa>p{
+    margin-top: 25px;
+}
+
+#sec3{
+    margin-left: -600px;    
+}
+
+#afpa{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#afpa>p{
+    width: 80%;
+}
+
+#infradax{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+#infradax > img, #afpa > img{
     width: 150px;
     height: 150px;
+    margin-top: -20px;
 }
