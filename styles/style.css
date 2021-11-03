@@ -175,7 +175,7 @@ main h2{
 
 
 #sec2 ul{
-    list-style-image: url(pics/la-fleche.png);
+    list-style-image: url("../pics/la-fleche.png");
     text-align: left;
     margin-top: 150px;
 }
